@@ -1,0 +1,26 @@
+-- INSERT EMPLOYEE DATA
+
+USE MyDatabase
+
+INSERT INTO employees(employee_id, first_name, last_name, department, job_role, salary, bonus, city, gender, age, joining_date, manager_id, employment_status)
+VALUES
+(101, 'Rahul', 'Sharma', 'IT', 'Developer', 60000, 5000, 'Bengaluru', 'M', 28, '2022-01-15', 105, 'Active'),
+(102, 'Priya', 'Kumar', 'HR', 'HR Executive', 45000, 3000, 'Mumbai', 'F', 26, '2023-03-10', 106, 'Active'), 
+(103, 'Amit', 'Singh', 'IT', 'Tester', 50000, NULL, 'Bengaluru', 'M', 30, '2021-07-20', 105, 'Active'), 
+(104, 'Sneha', 'Rao', 'Finance', 'Accountant', 55000, 4000, 'Chennai', 'F', 29, '2020-11-05', 107, 'Active'), 
+(105, 'Arjun', 'Patel', 'IT', 'Manager', 85000, 10000, 'Hyderabad', 'M', 35, '2018-06-18', NULL, 'Active'), 
+(106, 'Neha', 'Verma', 'HR', 'Manager', 75000, 8000, 'Bengaluru', 'F', 34, '2019-09-12', NULL, 'Active'), 
+(107, 'Kiran', 'Das', 'Finance', 'Manager', 80000, 9000, 'Mumbai', 'M', 38, '2017-04-08', NULL, 'Active'), 
+(108, 'Ananya', 'Iyer', 'IT', 'Developer', 70000, 6000, 'Chennai', 'F', 27, '2023-09-25', 105, 'Active'), 
+(109, 'Vikram', 'Joshi', 'Sales', 'Sales Executive', 52000, 3500, 'Delhi', 'M', 31, '2022-03-14', 110, 'Active'), 
+(110, 'Pooja', 'Mehta', 'Sales', 'Sales Manager', 80000, 9000, 'Bengaluru', 'F', 36, '2019-07-22', NULL, 'Active'), 
+(111, 'Rohan', 'Gupta', 'IT', 'Developer', 65000, 5000, 'Pune', 'M', 29, '2024-01-10', 105, 'Active'), 
+(112, 'Divya', 'Nair', 'HR', 'Recruiter', 48000, NULL, 'Chennai', 'F', 25, '2024-05-15', 106, 'Active'), 
+(113, 'Suresh', 'Reddy', 'Finance', 'Analyst', 62000, 4000, 'Hyderabad', 'M', 32, '2021-08-19', 107, 'Active'), 
+(114, 'Kavya', 'Menon', 'Sales', 'Sales Executive', 50000, 3000, 'Mumbai', 'F', 28, '2023-12-01', 110, 'Active'), 
+(115, 'Manoj', 'Kumar', 'IT', 'Support Engineer', 58000, 3500, 'Bengaluru', 'M', 33, '2020-02-28', 105, 'Active'), 
+(116, 'Asha', 'Singh', 'Finance', 'Analyst', 60000, NULL, 'Delhi', 'F', 27, '2024-02-12', 107, 'Active'), 
+(117, 'Naveen', 'Rao', 'Sales', 'Sales Executive', 47000, 2500, 'Pune', 'M', 26, '2024-06-05', 110, 'Probation'), 
+(118, 'Meera', 'Shah', 'HR', 'HR Executive', 46000, 3000, 'Mumbai', 'F', 30, '2022-10-17', 106, 'Active'),
+(119, 'Ajay', 'Das', 'IT', 'Developer', 72000, 7000, 'Hyderabad', 'M', 34, '2019-05-23', 105, 'Resigned'), 
+(120, 'Lakshmi', 'Iyer', 'Finance', 'Accountant', 54000, 3500, 'Bengaluru', 'F', 31, '2022-12-11', 107, 'Active')
