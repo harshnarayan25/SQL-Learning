@@ -1,6 +1,7 @@
--- INSERT EMPLOYEE DATA
+USE MyDatabase;
+GO
 
-USE MyDatabase
+-- INSERT EMPLOYEES DATA
 
 INSERT INTO employees(employee_id, first_name, last_name, department, job_role, salary, bonus, city, gender, age, joining_date, manager_id, employment_status)
 VALUES
@@ -23,4 +24,5 @@ VALUES
 (117, 'Naveen', 'Rao', 'Sales', 'Sales Executive', 47000, 2500, 'Pune', 'M', 26, '2024-06-05', 110, 'Probation'), 
 (118, 'Meera', 'Shah', 'HR', 'HR Executive', 46000, 3000, 'Mumbai', 'F', 30, '2022-10-17', 106, 'Active'),
 (119, 'Ajay', 'Das', 'IT', 'Developer', 72000, 7000, 'Hyderabad', 'M', 34, '2019-05-23', 105, 'Resigned'), 
-(120, 'Lakshmi', 'Iyer', 'Finance', 'Accountant', 54000, 3500, 'Bengaluru', 'F', 31, '2022-12-11', 107, 'Active')
+(120, 'Lakshmi', 'Iyer', 'Finance', 'Accountant', 54000, 3500, 'Bengaluru', 'F', 31, '2022-12-11', 107, 'Active');
+GO
