@@ -1,6 +1,7 @@
 -- EMPLOYEES TABLE CREATE QUERY
 
-USE MyDatabase
+USE MyDatabase;
+GO
 
 CREATE TABLE employees (
 	employee_id INT PRIMARY KEY,
@@ -16,4 +17,5 @@ CREATE TABLE employees (
 	joining_date DATE,
 	manager_id INT,
 	employment_status VARCHAR(20) DEFAULT 'Active'
-)
+);
+GO
