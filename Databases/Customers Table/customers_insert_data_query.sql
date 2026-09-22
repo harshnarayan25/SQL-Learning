@@ -3,7 +3,8 @@ GO
 
 -- INSERT CUSTOMERS DATA
 
-INSERT INTO customers (id, first_name, country, score) VALUES
+INSERT INTO customers (id, first_name, country, score) 
+VALUES
     (1, 'Maria', 'Germany',  350),
     (2, ' John', 'USA', 900),
     (3, 'Georg', 'UK', 750),
