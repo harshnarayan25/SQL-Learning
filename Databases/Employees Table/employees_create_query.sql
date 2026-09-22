@@ -1,7 +1,7 @@
--- EMPLOYEES TABLE CREATE QUERY
-
 USE MyDatabase;
 GO
+
+-- CREATE EMPLOYEES TABLE
 
 CREATE TABLE employees (
 	employee_id INT PRIMARY KEY,
