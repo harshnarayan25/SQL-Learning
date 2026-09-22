@@ -1,6 +1,8 @@
 USE MyDatabase;
 GO
 
+-- CREATE CUSTOMERS TABLE
+
 CREATE TABLE customers (
     id INT NOT NULL,
     first_name VARCHAR(50) NOT NULL,
